@@ -13,3 +13,7 @@ Happy Coding :)
 
 ![image](https://user-images.githubusercontent.com/81794601/217062888-68527330-45db-4412-93a4-aa9998bec026.png)
 
+To Run The Project :
+> download project on your system 
+> open project with your NetbeansIDE 
+> Run the project 
