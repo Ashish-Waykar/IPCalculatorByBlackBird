@@ -6,7 +6,7 @@
 package ip.calculator.by.blackbird;
 import java.util.*;
 import java.util.regex.*;
-import java.util.logging.*;
+import java.util.logging.*; 
 import java.awt.*;
 import java.awt.event.*;
 import javax.swing.*;
