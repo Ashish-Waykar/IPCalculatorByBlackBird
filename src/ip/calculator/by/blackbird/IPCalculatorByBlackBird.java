@@ -66,7 +66,7 @@ public class IPCalculatorByBlackBird extends JFrame {
     JTextField subnw;
     JTextField type;
     
-String ip_type ;
+    String ip_type ;
 int cidr;
     public IPCalculatorByBlackBird() {
         initComponents();
@@ -344,9 +344,9 @@ int cidr;
                     .addComponent(mask_bin)
                     .addComponent(nwID_bin)
                     .addGroup(GroupLayout.Alignment.TRAILING, jPanel3Layout.createSequentialGroup()
-                        .addComponent(jButton2, GroupLayout.PREFERRED_SIZE, 83, GroupLayout.PREFERRED_SIZE)
-                        .addPreferredGap(LayoutStyle.ComponentPlacement.RELATED, GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                        .addComponent(close, GroupLayout.PREFERRED_SIZE, 83, GroupLayout.PREFERRED_SIZE))
+//                        .addComponent(jButton2, GroupLayout.PREFERRED_SIZE, 83, GroupLayout.PREFERRED_SIZE)
+                        .addPreferredGap(LayoutStyle.ComponentPlacement.RELATED, GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
+//                        .addComponent(close, GroupLayout.PREFERRED_SIZE, 83, GroupLayout.PREFERRED_SIZE))
                     .addGroup(jPanel3Layout.createSequentialGroup()
                         .addGroup(jPanel3Layout.createParallelGroup(GroupLayout.Alignment.LEADING)
                             .addComponent(jLabel9, GroupLayout.PREFERRED_SIZE, 76, GroupLayout.PREFERRED_SIZE)
@@ -376,9 +376,9 @@ int cidr;
                 .addPreferredGap(LayoutStyle.ComponentPlacement.RELATED)
                 .addComponent(nwID_bin, GroupLayout.PREFERRED_SIZE, GroupLayout.DEFAULT_SIZE, GroupLayout.PREFERRED_SIZE)
                 .addPreferredGap(LayoutStyle.ComponentPlacement.UNRELATED)
-                .addGroup(jPanel3Layout.createParallelGroup(GroupLayout.Alignment.BASELINE)
-                    .addComponent(close, GroupLayout.PREFERRED_SIZE, 36, GroupLayout.PREFERRED_SIZE)
-                    .addComponent(jButton2, GroupLayout.PREFERRED_SIZE, 36, GroupLayout.PREFERRED_SIZE))
+                .addGroup(jPanel3Layout.createParallelGroup(GroupLayout.Alignment.BASELINE))
+//                    .addComponent(close, GroupLayout.PREFERRED_SIZE, 36, GroupLayout.PREFERRED_SIZE)
+//                    .addComponent(jButton2, GroupLayout.PREFERRED_SIZE, 36, GroupLayout.PREFERRED_SIZE))
                 .addPreferredGap(LayoutStyle.ComponentPlacement.RELATED, 64, Short.MAX_VALUE)
                 .addComponent(jLabel20)
                 .addGap(6, 6, 6)
@@ -698,16 +698,16 @@ int cidr;
        String m13 = m[2];
        String m14 = m[3];
        
-        int m111 = Integer.parseInt(m11);
+       int m111 = Integer.parseInt(m11);
        int m121 = Integer.parseInt(m12);
        int m131 = Integer.parseInt(m13);
        int m141 = Integer.parseInt(m14);
        
        
        String m1 = Integer.toBinaryString(m111);
-        String m2 = Integer.toBinaryString(m121);
-        String m3 = Integer.toBinaryString(m131);
-        String m4 = Integer.toBinaryString(m141);
+       String m2 = Integer.toBinaryString(m121);
+       String m3 = Integer.toBinaryString(m131);
+       String m4 = Integer.toBinaryString(m141);
        String zm = "";
         String zm1 = "";String zm2 = "";String zm3 = "";
         if(m1.length() <8 ){
