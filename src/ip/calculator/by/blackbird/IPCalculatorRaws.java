@@ -10,7 +10,7 @@ import java.util.Scanner;
 
 /**
  *
- * @author Ashish Waykar
+ * @author Ashish Waykar 
  */
 public class IPCalculatorRaws {
     public static void main(String[] args) {
